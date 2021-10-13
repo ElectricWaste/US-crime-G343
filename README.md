@@ -2,6 +2,8 @@
 Prosjektet for G8.
 Fokus på US-crime
 
+
+
 Datasett:
 
 https://www.kaggle.com/tunguz/us-estimated-crimes
