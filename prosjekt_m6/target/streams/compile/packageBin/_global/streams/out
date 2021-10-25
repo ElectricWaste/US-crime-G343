@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/student/git_workspace/US-crime-G343/Milepæl 3/prosjekt_m3/target/scala-2.12/prosjekt_m3_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Node$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/Milepæl 3/prosjekt_m3/target/scala-2.12/classes/Node$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HttpGetPostTest$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/Milepæl 3/prosjekt_m3/target/scala-2.12/classes/HttpGetPostTest$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Node.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/Milepæl 3/prosjekt_m3/target/scala-2.12/classes/Node.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	NodeResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/Milepæl 3/prosjekt_m3/target/scala-2.12/classes/NodeResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	NodeResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/Milepæl 3/prosjekt_m3/target/scala-2.12/classes/NodeResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	stateData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/Milepæl 3/prosjekt_m3/target/scala-2.12/classes/stateData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HttpGetPostTest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/Milepæl 3/prosjekt_m3/target/scala-2.12/classes/HttpGetPostTest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Message.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/Milepæl 3/prosjekt_m3/target/scala-2.12/classes/Message.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Message$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/Milepæl 3/prosjekt_m3/target/scala-2.12/classes/Message$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	stateData$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/Milepæl 3/prosjekt_m3/target/scala-2.12/classes/stateData$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HttpGetPostTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/Milepæl 3/prosjekt_m3/target/scala-2.12/classes/HttpGetPostTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
