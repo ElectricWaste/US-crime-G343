@@ -7,6 +7,8 @@ import scala.concurrent.duration.Duration
 import org.mongodb.scala._
 import org.mongodb.scala.model._
 import org.mongodb.scala.model.Filters._
+import org.mongodb.scala.model.Projections._
+import org.mongodb.scala.model.Sorts._
 import org.mongodb.scala.model.Updates._
 import org.mongodb.scala.model.UpdateOptions
 import org.mongodb.scala.bson.BsonObjectId
@@ -35,28 +37,12 @@ object MongoGetPostTest extends App {
     }
 
     val mongoClient: MongoClient = MongoClient();
-    val database: MongoDatabase = mongoClient.getDatabase("uscrime");
-    val collection: MongoCollection[Document] = database.getCollection("arrests_per_100k");
+    val database: MongoDatabase = mongoClient.getDatabase("test");
+    val collection: MongoCollection[Document] = database.getCollection("teachers");
 
-    // val document = Document(
-    //     "states" -> "Delaware", 
-    //     "arrests" -> 32,
-    //     "contact" -> Document("Discord" -> "Mariusge#5190", 
-    //                             "email" -> "mariusge@hiof.no"),
-    //     "beard_state" -> "Excellent", 
-    //     "taught_autumn_2021" -> Seq(
-    //         "Masterstudium i Organisasjon og ledelse - MOL 2",
-    //         "Big Data - Lagring og bearbeiding"
-    //     ));
 
-    val arrests_per_100k = Document (
-        "states" -> "Delaware"
-        "total_arrests" -> Document (
-            "murder_arrests_per_100k" -> 5.9,
-            "assault_arrests_per_100k" -> 4.9,
-            "rape_arrests_per_100k" -> 3.4
-        )
-    );
-
-    collection.insertOne(arrests_per_100k).results();
+    collection.aggregate(Seq(
+        Aggregates.filter(Filters.equal("name", "Marius Geitle")),
+        Aggregates.group("$age", Accumulators.sum("count", 1))
+    )).printResults()
 }

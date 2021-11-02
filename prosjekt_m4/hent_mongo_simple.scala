@@ -7,6 +7,8 @@ import scala.concurrent.duration.Duration
 import org.mongodb.scala._
 import org.mongodb.scala.model._
 import org.mongodb.scala.model.Filters._
+import org.mongodb.scala.model.Projections._
+import org.mongodb.scala.model.Sorts._
 import org.mongodb.scala.model.Updates._
 import org.mongodb.scala.model.UpdateOptions
 import org.mongodb.scala.bson.BsonObjectId
@@ -35,28 +37,28 @@ object MongoGetPostTest extends App {
     }
 
     val mongoClient: MongoClient = MongoClient();
-    val database: MongoDatabase = mongoClient.getDatabase("uscrime");
-    val collection: MongoCollection[Document] = database.getCollection("arrests_per_100k");
+    val database: MongoDatabase = mongoClient.getDatabase("test");
+    val collection: MongoCollection[Document] = database.getCollection("teachers");
 
-    // val document = Document(
-    //     "states" -> "Delaware", 
-    //     "arrests" -> 32,
-    //     "contact" -> Document("Discord" -> "Mariusge#5190", 
-    //                             "email" -> "mariusge@hiof.no"),
-    //     "beard_state" -> "Excellent", 
-    //     "taught_autumn_2021" -> Seq(
-    //         "Masterstudium i Organisasjon og ledelse - MOL 2",
-    //         "Big Data - Lagring og bearbeiding"
-    //     ));
+    collection.find().printResults();
+    collection.find(Document()).printResults();
 
-    val arrests_per_100k = Document (
-        "states" -> "Delaware"
-        "total_arrests" -> Document (
-            "murder_arrests_per_100k" -> 5.9,
-            "assault_arrests_per_100k" -> 4.9,
-            "rape_arrests_per_100k" -> 3.4
-        )
-    );
+    collection.find(Document("beard_state" -> "Excellent")).printResults()
+    collection.find(equal("beard_state", "Excellent")).printResults()
+    collection.find(
+        and(
+            equal("beard_state", "Excellent"), 
+            equal("name", "Marius Geitle")
+            )).printResults()
 
-    collection.insertOne(arrests_per_100k).results();
+    collection
+        .find()
+        .projection(fields(include("name"), include("beard_state"), excludeId()))    
+        .printResults()
+
+    collection
+        .find()
+        .sort(ascending("name"))
+        .projection(fields(include("name"), include("beard_state"), excludeId()))    
+        .printResults()
 }
