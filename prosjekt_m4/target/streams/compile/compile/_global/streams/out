@@ -1,2 +1,13 @@
-[0m[[0m[33mwarn[0m] [0m[0mone deprecation; re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/hent_mongo_simple.scala:17:8: MongoGetPostTest is already defined as object MongoGetPostTest[0m
+[0m[[0m[31merror[0m] [0m[0mobject MongoGetPostTest extends App {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/oppdatermongo.scala:17:8: MongoGetPostTest is already defined as object MongoGetPostTest[0m
+[0m[[0m[31merror[0m] [0m[0mobject MongoGetPostTest extends App {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:15:8: MongoGetPostTest is already defined as object MongoGetPostTest[0m
+[0m[[0m[31merror[0m] [0m[0mobject MongoGetPostTest extends App {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/slettmongo.scala:17:8: MongoGetPostTest is already defined as object MongoGetPostTest[0m
+[0m[[0m[31merror[0m] [0m[0mobject MongoGetPostTest extends App {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

@@ -1,0 +1,60 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(859bacd7-5b93-48a3-bff8-483e439d6c17), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 6 Scala sources to /home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:7:12: object mongodb is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.mongodb.scala._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:8:12: object mongodb is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.mongodb.scala.model._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:9:12: object mongodb is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.mongodb.scala.model.Filters._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:10:12: object mongodb is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.mongodb.scala.model.Updates._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:11:12: object mongodb is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.mongodb.scala.model.UpdateOptions[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:12:12: object mongodb is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.mongodb.scala.bson.BsonObjectId[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:16:107: not found: type Document[0m
+[0m[[0m[31merror[0m] [0m[0m    implicit class DocumentObservable[C](val observable: Observable[Document]) extends ImplicitObservable[Document] {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:16:58: not found: type Observable[0m
+[0m[[0m[31merror[0m] [0m[0m    implicit class DocumentObservable[C](val observable: Observable[Document]) extends ImplicitObservable[Document] {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:17:34: not found: type Document[0m
+[0m[[0m[31merror[0m] [0m[0m        override val converter: (Document) => String = (doc) => doc.toJson[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:20:57: not found: type Observable[0m
+[0m[[0m[31merror[0m] [0m[0m    implicit class GenericObservable[C](val observable: Observable[C]) extends ImplicitObservable[C] {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:25:25: not found: type Observable[0m
+[0m[[0m[31merror[0m] [0m[0m        val observable: Observable[C][0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:37:22: not found: type MongoClient[0m
+[0m[[0m[31merror[0m] [0m[0m    val mongoClient: MongoClient = MongoClient();[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:37:36: not found: value MongoClient[0m
+[0m[[0m[31merror[0m] [0m[0m    val mongoClient: MongoClient = MongoClient();[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:38:19: not found: type MongoDatabase[0m
+[0m[[0m[31merror[0m] [0m[0m    val database: MongoDatabase = mongoClient.getDatabase("uscrime");[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:39:21: not found: type MongoCollection[0m
+[0m[[0m[31merror[0m] [0m[0m    val collection: MongoCollection[Document] = database.getCollection("arrests_per_100k");[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:54:28: not found: value Document[0m
+[0m[[0m[31merror[0m] [0m[0m    val arrests_per_100k = Document ([0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postmongo.scala:56:28: not found: value Document[0m
+[0m[[0m[31merror[0m] [0m[0m        "total_arrests" -> Document ([0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m17 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Nov 3, 2021, 10:30:54 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

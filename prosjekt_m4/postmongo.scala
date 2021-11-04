@@ -49,8 +49,10 @@ object MongoGetPostTest extends App {
     //         "Big Data - Lagring og bearbeiding"
     //     ));
 
+
+    // Document objektet for mongo
     val arrests_per_100k = Document (
-        "states" -> "Delaware"
+        "states" -> row(1),
         "total_arrests" -> Document (
             "murder_arrests_per_100k" -> 5.9,
             "assault_arrests_per_100k" -> 4.9,

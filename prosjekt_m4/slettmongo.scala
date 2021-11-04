@@ -37,8 +37,8 @@ object MongoGetPostTest extends App {
     }
 
     val mongoClient: MongoClient = MongoClient();
-    val database: MongoDatabase = mongoClient.getDatabase("test");
-    val collection: MongoCollection[Document] = database.getCollection("teachers");
+    val database: MongoDatabase = mongoClient.getDatabase("uscrime");
+    val collection: MongoCollection[Document] = database.getCollection("arrests_per_100k");
 
 
     collection.deleteOne(

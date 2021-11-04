@@ -1,13 +1,13 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
 [0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 11 products, 1 sources, 4 libraries[0m
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/lese.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/lese.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/hentmongo.scala, ${BASE}/postmongo.scala, ${BASE}/hent_agg_mongo.scala, ${BASE}/slettmongo.scala, ${BASE}/oppdatermongo.scala, ${BASE}/hent_mongo_simple.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/hent_agg_mongo.scala, ${BASE}/postmongo.scala, ${BASE}/slettmongo.scala, ${BASE}/hent_mongo_simple.scala, ${BASE}/oppdatermongo.scala, ${BASE}/hentmongo.scala), removed = Set(${BASE}/lese.scala), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/lese.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set(${BASE}/lese.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(${BASE}/hentmongo.scala, ${BASE}/postmongo.scala, ${BASE}/hent_agg_mongo.scala, ${BASE}/slettmongo.scala, ${BASE}/oppdatermongo.scala, ${BASE}/hent_mongo_simple.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
@@ -16,17 +16,17 @@
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mall 1 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 6 sources are invalidated[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Node, NodeResponse, stateData, Message, HttpGetPostTest[0m
 [0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/student/git_workspace/US-crime-G343/Milepæl 3/prosjekt_m3/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 6 Scala sources to /home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.5.7:compile for Scala 2.12.14[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 4af32ca3 for Scala compiler version 2.12.14[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5448852a for Scala compiler version 2.12.14[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/student/.sbt/boot/scala-2.12.14/lib/scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/home/student/git_workspace/US-crime-G343/Milepæl 3/prosjekt_m3/target/scala-2.12/classes:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.271108986 s[0m
-[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCompilation failed (CompilerInterface)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
