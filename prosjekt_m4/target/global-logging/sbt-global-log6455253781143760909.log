@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(db0add79-d26e-4731-b883-8fb75350a3ba), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/postMongo.scala:44:22: not found: value row[0m
+[0m[[0m[31merror[0m] [0m[0m         "states" -> row(1),[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Nov 8, 2021, 4:52:03 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
