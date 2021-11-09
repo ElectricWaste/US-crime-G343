@@ -41,14 +41,15 @@ object postMongoObj extends App {
 
 
     val document = Document(
-         "state" -> "Texas",
-        "total_arrests_per_100k" -> Document (
-            "murder_arrests_per_100k" -> 5.9,
-            "assault_arrests_per_100k" -> 4.9,
-            "rape_arrests_per_100k" -> 3.4
-        )
+        "State" -> "Texas",
+        "murder_arrests_per_100k" -> 5.9,
+        "assault_arrests_per_100k" -> 4.9,
+        "rape_arrests_per_100k" -> 3.4,
+        "urbanpop_arrests_per_100k" -> 6.9
+        
     );
 
     collection.insertOne(document).results();
 
+    collection.find().printResults();
 }

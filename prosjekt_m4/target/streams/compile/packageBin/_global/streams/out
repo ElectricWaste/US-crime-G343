@@ -1,15 +1,39 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/prosjekt_m4_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/prosjekt_m4_2.12-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	postMongoObj$ImplicitObservable.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/postMongoObj$ImplicitObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/postMongoObj$ImplicitObservable.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	postMongoObj$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/postMongoObj$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/postMongoObj$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	postMongoObj.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/postMongoObj.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/postMongoObj.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	postMongoObj$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/postMongoObj$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/postMongoObj$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoGetPostUscrime$ImplicitObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/MongoGetPostUscrime$ImplicitObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoGetPostTest$GenericObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/MongoGetPostTest$GenericObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoGetPostUscrime$GenericObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/MongoGetPostUscrime$GenericObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoGetPostTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/MongoGetPostTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoGetPostTest$DocumentObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/MongoGetPostTest$DocumentObservable.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	postMongoObj$GenericObservable.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/postMongoObj$GenericObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/postMongoObj$GenericObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoGetPostUscrime$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/MongoGetPostUscrime$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoGetPostTest$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/MongoGetPostTest$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoGetPostTest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/MongoGetPostTest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoGetPostTest$ImplicitObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/MongoGetPostTest$ImplicitObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoGetPostUscrime$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/MongoGetPostUscrime$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoGetPostUscrime.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/MongoGetPostUscrime.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MongoGetPostUscrime$DocumentObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/MongoGetPostUscrime$DocumentObservable.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	postMongoObj$DocumentObservable.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/postMongoObj$DocumentObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes/postMongoObj$DocumentObservable.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
