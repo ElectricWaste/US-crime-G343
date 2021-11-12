@@ -45,17 +45,18 @@ object insertMongoObj extends App {
 
     source.getLines.drop(1).foreach { line =>
         val row = line.split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)").map(_.trim)
+        println(row.mkString(","))
 
-        def parseInt(value : String) : Option[Int] = if (value == "") None else Some(value.toInt)
+        def parseDouble(value : String) : Option[Double] = if (value == "") None else Some(value.toDouble)
 
-    println("fungerer")
+    println("Success")
 
         val document = Document(
-            "State" -> row(1),
-            "Murder" -> row(2),
-            "Assault" -> row(3),
-            "UrbanPop" -> row(4,
-            "Rape" -> row(5)
+            "State" -> row(0),
+            "Murder" -> parseDouble(row(1)),
+            "Assault" -> parseDouble(row(2)),
+            "Urbanpop" -> parseDouble(row(3)),
+            "Rape" -> parseDouble(row(4))
             );
 
         collection.insertOne(document).results();

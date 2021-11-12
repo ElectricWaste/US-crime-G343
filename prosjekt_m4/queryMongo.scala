@@ -63,7 +63,7 @@ object queryMongoObj extends App {
         Aggregates.sort( orderBy( descending("count") ) )
     ))
     .printResults()
-    */
+    */ 
 
     collection.aggregate(Seq(
         Aggregates.filter(Filters.gt("MntWines", 10)),

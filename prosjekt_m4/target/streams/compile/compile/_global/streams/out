@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/student/US-crime-G343/prosjekt_m4/insertMongo.scala:59:14: ')' expected but ';' found.[0m
-[0m[[0m[31merror[0m] [0m[0m            );[0m
-[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/git_workspace/US-crime-G343/prosjekt_m4/insertMongo.scala:47:65: value replaceAll is not a member of Array[String][0m
+[0m[[0m[31merror[0m] [0m[0m        val row = line.split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)").replaceAll("\"", "").map(_.trim)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

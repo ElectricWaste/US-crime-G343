@@ -2,34 +2,38 @@
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
 [0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 18 products, 3 sources, 5 libraries[0m
 [0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/postMongo.scala, ${BASE}/queryMongo.scala, ${BASE}/insertMongo.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/insertMongo.scala, ${BASE}/queryMongo.scala, ${BASE}/postMongo.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/insertMongo.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/insertMongo.scala, ${BASE}/queryMongo.scala, ${BASE}/postMongo.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/insertMongo.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(MongoGetPostTest, postMongoObj.DocumentObservable, postMongoObj.ImplicitObservable, MongoGetPostUscrime.DocumentObservable, MongoGetPostUscrime, postMongoObj, MongoGetPostTest.GenericObservable, MongoGetPostTest.ImplicitObservable, postMongoObj.GenericObservable, MongoGetPostTest.DocumentObservable, MongoGetPostUscrime.ImplicitObservable, MongoGetPostUscrime.GenericObservable)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(insertMongoObj.DocumentObservable, insertMongoObj.ImplicitObservable, insertMongoObj, insertMongoObj.GenericObservable)[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mall 3 sources are invalidated[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: MongoGetPostTest, postMongoObj.DocumentObservable, postMongoObj.ImplicitObservable, MongoGetPostUscrime.DocumentObservable, MongoGetPostUscrime, postMongoObj, MongoGetPostTest.GenericObservable, MongoGetPostTest.ImplicitObservable, postMongoObj.GenericObservable, MongoGetPostTest.DocumentObservable, MongoGetPostUscrime.ImplicitObservable, MongoGetPostUscrime.GenericObservable[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding postMongoObj.GenericObservable by postMongoObj.ImplicitObservable[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding MongoGetPostTest.DocumentObservable by MongoGetPostTest.ImplicitObservable[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding MongoGetPostUscrime.GenericObservable by MongoGetPostUscrime.ImplicitObservable[0m
-[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(insertMongoObj.DocumentObservable, insertMongoObj.ImplicitObservable, insertMongoObj, insertMongoObj.GenericObservable)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/insertMongo.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: insertMongoObj.DocumentObservable, insertMongoObj.ImplicitObservable, insertMongoObj, insertMongoObj.GenericObservable[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding insertMongoObj.GenericObservable by insertMongoObj.ImplicitObservable[0m
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.5.7:compile for Scala 2.12.14[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 6ddd15a0 for Scala compiler version 2.12.14[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 27b58bfb for Scala compiler version 2.12.14[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/student/.sbt/boot/scala-2.12.14/lib/scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/home/student/US-crime-G343/prosjekt_m4/target/scala-2.12/classes:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.12/4.2.3/mongo-scala-driver_2.12-4.2.3.jar:/home/student/.sbt/boot/scala-2.12.14/lib/scala-reflect.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-bson_2.12/4.2.3/mongo-scala-bson_2.12-4.2.3.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-reactivestreams/4.2.3/mongodb-driver-reactivestreams-4.2.3.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/bson/4.2.3/bson-4.2.3.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-core/4.2.3/mongodb-driver-core-4.2.3.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/io/projectreactor/reactor-core/3.2.22.RELEASE/reactor-core-3.2.22.RELEASE.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mCompilation failed (CompilerInterface)[0m
-[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.12/4.2.3/mongo-scala-driver_2.12-4.2.3.jar:/home/student/.sbt/boot/scala-2.12.14/lib/scala-reflect.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-bson_2.12/4.2.3/mongo-scala-bson_2.12-4.2.3.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-reactivestreams/4.2.3/mongodb-driver-reactivestreams-4.2.3.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/bson/4.2.3/bson-4.2.3.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-core/4.2.3/mongodb-driver-core-4.2.3.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/io/projectreactor/reactor-core/3.2.22.RELEASE/reactor-core-3.2.22.RELEASE.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.644358253 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
