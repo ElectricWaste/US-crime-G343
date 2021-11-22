@@ -1,6 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(2da5b404-1644-4bdf-ba9f-9794e9e09718), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes ...[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed Nov 12, 2021, 6:39:52 AM[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,23 +1,2 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes.bak[0m
-[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$GenericObservable.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$DocumentObservable.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$ImplicitObservable.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$GenericObservable.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$DocumentObservable.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$ImplicitObservable.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$GenericObservable.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$DocumentObservable.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	insertMongoObj$ImplicitObservable.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/student/git_workspace/US-crime-G343/prosjekt_m4/target/scala-2.12/classes.bak[0m

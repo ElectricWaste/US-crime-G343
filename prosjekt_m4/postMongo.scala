@@ -42,10 +42,10 @@ object postMongoObj extends App {
 
     val document = Document(
         "State" -> "Texas",
-        "murder_arrests_per_100k" -> 5.9,
-        "assault_arrests_per_100k" -> 4.9,
-        "rape_arrests_per_100k" -> 3.4,
-        "urbanpop_arrests_per_100k" -> 6.9
+        "Murder" -> 5.9,
+        "Assault" -> 4.9,
+        "Rape" -> 3.4,
+        "UrbanPop" -> 6.9
         
     );
 

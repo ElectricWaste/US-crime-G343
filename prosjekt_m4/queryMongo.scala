@@ -74,6 +74,8 @@ object queryMongoObj extends App {
         Aggregates.sort( orderBy( descending("count") ) ),
         Aggregates.limit(10)
     ))
+
+    ))
     .printResults()
     
 }
