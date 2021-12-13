@@ -19,36 +19,35 @@ object sparkForNeo4j extends App {
     .option("url", "bolt://localhost:7687")
     .option("authentication.basic.username", "neo4j")
     .option("authentication.basic.password", "student")
-    .option("labels", "Continent")
+    .option("labels", "State")
     .load()
 
   val dfRelation = spark.read.format("org.neo4j.spark.DataSource")
     .option("url", "bolt://localhost:7687")
     .option("authentication.basic.username", "neo4j")
     .option("authentication.basic.password", "student")
-    .option("query", "MATCH (source:Country)-[r:LOCATED_IN]->(target:Continent) RETURN source.name, source.GdpPerCapita,target.name")
+    .option("query", "MATCH (source:State)-[r:LOCATED_IN]->(target:State) RETURN source.name, source.GdpPerCapita, target.name")
     .load()
 
   var stopped = false
-  println("hey there, using this program you can view and add countries to the neo4j database")
+  println("Neo4j database input opertunity")
   var command = 0
 
 
-  var continents = dfContinents.select("name").collectAsList()
+  var states = statesDf.select("name").collectAsList()
 
   while(!stopped){
-    println("type 1 to add a new country, 2 to view all the countries in the database, 3 to sort by GDP per capita"
-      + " and 4 to quit the program")
+    println(" ")
     command = readInt()
     if(command==1){
-      val country = readLine("Enter the country name: ")
+      val state = readLine("Enter the name of the state: ")
       print("Enter the GDP per Capita for this country:")
-      val income = readInt()
+     // val income = readInt()
 
-      println("Which continent is this country located in?(enter a number to choose one)")
+      println(" ")
       var c =0
-      for(c <- 0 to continents.size() - 1){
-          println( c + " : " + continents.get(c))
+      for(c <- 0 to states.size() - 1){
+          println( c + " : " + states.get(c))
       }
 
       val cNum = readInt()
@@ -59,26 +58,26 @@ object sparkForNeo4j extends App {
 
 
       val data = Seq(
-        (country, income, continents.get(cNum).getString(cNum)))
-      val countryDF = spark.createDataFrame(data).toDF("name", "GdpPerCapita" , "continent")
+        (state, states.get(cNum).getString(cNum)))
+      val stateDf = spark.createDataFrame(data).toDF("name", "state")
 
-      countryDF.write
+      stateDf.write
         .format("org.neo4j.spark.DataSource")
         .option("url", "bolt://localhost:7687")
         .option("authentication.basic.username", "neo4j")
         .option("authentication.basic.password", "student")
         .option("relationship", "LOCATED_IN")
         .option("relationship.save.strategy", "keys")
-        .option("relationship.source.labels", ":Country")
+        .option("relationship.source.labels", ":State")
         .option("relationship.source.save.mode", "overwrite")
         .option("relationship.source.node.keys", "name:name")
         .option("relationship.source.node.properties", "GdpPerCapita:GdpPerCapita")
-        .option("relationship.target.labels", ":Continent")
-        .option("relationship.target.node.keys", "continent:name")
+        .option("relationship.target.labels", ":State")
+        .option("relationship.target.node.keys", "state:name")
         .option("relationship.target.save.mode", "Overwrite")
         .save()
 
-      countryDF.show()
+      stateDf.show()
 
 
 
@@ -87,17 +86,13 @@ object sparkForNeo4j extends App {
 
     }else if(command==3){
 
-      //val gdpTop = dfCountry.sort(col("GdpPerCapita").desc).show()
-
-
-
 
       println("TOP 10 (sorted by GDP per Capita)")
       val dd = spark.read.format("org.neo4j.spark.DataSource")
         .option("url", "bolt://localhost:7687")
         .option("authentication.basic.username", "neo4j")
         .option("authentication.basic.password", "student")
-        .option("query", "MATCH (source:Country)-[r:LOCATED_IN]->(target:Continent)  RETURN source.name, source.GdpPerCapita,target.name ORDER BY source.GdpPerCapita DESC")
+        .option("query", "MATCH (source:State)-[r:LOCATED_IN]->(target:State)  RETURN source.name, source.GdpPerCapita, target.name ORDER BY source.GdpPerCapita DESC")
         .load()
 
       dd.show(10,false)
@@ -113,3 +108,6 @@ object sparkForNeo4j extends App {
     }
 
   }
+
+}
+
